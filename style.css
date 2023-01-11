@@ -1,0 +1,56 @@
+body {
+  color: #24292e;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.site-title {
+  line-height: 1px;
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: #24292e;
+}
+
+#header {
+  height: 170px;
+  max-width: 960px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+#header ul {
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+}
+#header li {
+  font-size: 0.9rem;
+  margin-left: 30px;
+}
+#header li a {
+  color: #24292e;
+  transition: all 0.3s;
+}
+#header li a:hover {
+  opacity: 0.5;
+}
+#header .icon {
+  width: 25px;
+}/*# sourceMappingURL=style.css.map */
