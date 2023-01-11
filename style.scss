@@ -61,6 +61,15 @@ li{
         }
 }
 
+#main{
+    margin-bottom:80px;
+    & img{
+    width:100%;
+    max-width:1920px;
+    height:400px;
+    object-fit: cover;
+    }
+}
 /* SP */
 @media screen and (max-width:600px){
     #header{
