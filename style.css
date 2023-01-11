@@ -1,5 +1,6 @@
 body {
   color: #24292e;
+  font-family: "Sawarabi+Gothic";
 }
 
 a {
@@ -99,7 +100,13 @@ li {
     margin-top: 20px;
   }
   #header li {
-    font-size: 0.8em;
+    font-size: 0.8rem;
     justify-content: center;
+  }
+  .wrapper li {
+    font-size: 0.9rem;
+  }
+  .wrapper p {
+    font-size: 0.9rem;
   }
 }/*# sourceMappingURL=style.css.map */

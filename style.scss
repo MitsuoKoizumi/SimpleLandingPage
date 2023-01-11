@@ -6,6 +6,7 @@ $liFontSize:1.2rem;
 
 body{
     color:$textColor;
+    font-family: "Sawarabi+Gothic" 
 }
 
 a{
@@ -105,8 +106,16 @@ li{
         line-height:40px;
         margin-top: 20px;
         & li{
-            font-size:0.8em;
+            font-size:0.8rem;
             justify-content: center;
         }
+    }
+    .wrapper{
+        & li{
+            font-size:0.9rem;    
+            }
+        & p{
+            font-size:0.9rem;
+            }
     }
 }
