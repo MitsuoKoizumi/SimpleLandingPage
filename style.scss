@@ -59,4 +59,18 @@ li{
         & .icon{
             width:25px;
         }
+}
+
+/* SP */
+@media screen and (max-width:600px){
+    #header{
+        flex-direction:column;
+        height:auto;
+        line-height:40px;
+        margin-top: 20px;
+        & li{
+            font-size:0.8em;
+            justify-content: center;
+        }
     }
+}
