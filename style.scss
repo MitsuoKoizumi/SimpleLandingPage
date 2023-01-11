@@ -32,6 +32,19 @@ li{
     color:$textColor;
 }
 
+.sec-title{
+    font-size:1.5rem;
+    text-align:center;
+    margin-bottom:65px;
+}
+
+.wrapper{
+    max-width:960px;
+    margin:0 auto 130px auto;
+    font-size:0.9rem;
+    padding: 0 4%;
+}
+
 #header{
         height:170px;
         max-width:960px;
@@ -70,6 +83,20 @@ li{
     object-fit: cover;
     }
 }
+
+/* About */
+#about{
+    & ul{
+        margin-bottom:30px;
+        & li{
+            margin-bottom:3px;
+            &:nth-child(1){
+                margin-bottom:30px;
+                }
+                
+            }
+        }
+    }
 /* SP */
 @media screen and (max-width:600px){
     #header{
